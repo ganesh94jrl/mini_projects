@@ -1,0 +1,6 @@
+/*using namespace std;The #include directives include necessary libraries:
+iostream for input/output operations and string for using the std::string class.
+The using namespace std; directive allows us to use standard library features without the std:: prefix*/
+#include <iostream>
+#include <string>
+using namespace std;
