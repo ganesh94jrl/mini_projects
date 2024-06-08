@@ -1,0 +1,2 @@
+//the defines a constant MAX_ROOMS which sets the maximum number of rooms in the hotel
+const int MAX_ROOMS=10;
