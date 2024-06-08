@@ -1,0 +1,20 @@
+void bookRoom() {
+        int roomNumber;
+        cout << "Enter room number to book (1-" << MAX_ROOMS << "): ";
+        cin >> roomNumber;
+
+        if (roomNumber < 1 || roomNumber > MAX_ROOMS) {
+            cout << "Invalid room number.\n";
+            return;
+        }
+
+        if (rooms[roomNumber - 1].isBooked) {
+            cout << "Room already booked.\n";
+        } else {
+            cout << "Enter guest name: ";
+            cin.ignore(); // To consume the newline character left by cin
+            getline(cin, rooms[roomNumber - 1].guestName);
+            rooms[roomNumber - 1].isBooked = true;
+            cout << "Room " << roomNumber << " successfully booked.\n";
+        }
+    }
