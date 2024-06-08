@@ -1,5 +1,5 @@
-#HOTEL_MANAGEMENT_SYSTEM
-# mini_projects
+
+# mini_projects(HOTEL_MANAGEMENT_SYSTEM)
 Room Class: 
 This class stores details about each room, including its number, guest name, and booking status.
 
