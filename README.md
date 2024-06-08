@@ -1,3 +1,4 @@
+#HOTEL_MANAGEMENT_SYSTEM
 # mini_projects
 Room Class: 
 This class stores details about each room, including its number, guest name, and booking status.
